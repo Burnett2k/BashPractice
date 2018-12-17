@@ -12,6 +12,7 @@ Currently working through [this tutorial](https://ryanstutorials.net/bash-script
 Before running a bash script, it must have the execution permission set. If you forget to add the permission, you will get an error.
 
 ## To add execute permissions:
+
 ```
 chmod 755 hello-world.sh
 ```
@@ -33,7 +34,7 @@ When you type a word on the command line Bash tries to find it in a series of di
 **TODO** add section explaining how to add to your path variable
 
 to get the value of $PATH, you can use **echo**  (directories are seprated by the **:** symbol)
-```
+```bash
 echo $PATH
 ```
 
@@ -57,18 +58,18 @@ Before Bash interprets (or runs) every line of our script it first checks to see
 
 ### Setting a variable
 
-When setting a variable, just give it a name
+When setting a variable, just give it a name. Formatting is important (no spaces)
 
 ```
-**TODO**
+myvariable=hello
 ```
 
 ### Reading a variable
 
 Place a $ followed by the name of the variable
 
-```
-$**TODO**
+```bash
+echo $myvariable
 ```
 
 
