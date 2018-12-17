@@ -6,7 +6,7 @@ If you can already do some commands on the command line, then you probably know 
 
 Scripts are entered into a plain text file and then invoked.
 
-Currently working through [This](https://ryanstutorials.net/bash-scripting-tutorial/bash-script.php) tutorial
+Currently working through [this tutorial](https://ryanstutorials.net/bash-scripting-tutorial/bash-script.php) 
 
 ## Execution:
 Before running a bash script, it must have the execution permission set. If you forget to add the permission, you will get an error.
@@ -18,17 +18,16 @@ chmod 755 hello-world.sh
 
 ## To check permission on a script:
 
-## To run hello-world.sh
+**TODO** Add more explanation and commands here
 
+## To run hello-world.sh
 ( It is important to understand the dot ( . ) is actually a reference to your current directory. e.g. ./hello-world.sh)
 
 ```
 ./hello-world.sh
 ```
 
-
 ## $PATH : What is it?
-
 When you type a word on the command line Bash tries to find it in a series of directories stored in a variable called $PATH
 
 **TODO** add section explaining how to add to your path variable
@@ -44,17 +43,26 @@ echo $PATH
 
 ## Shebang (#!): What is it?
 
-Is where you point to the path of the interpreter of the bash script
-
+* Is where you point to the path of the interpreter of the bash script
 * Must be on the very first line of the script
-
 
 ## Formatting
 
 * A single space can totally ruin a script so be really careful how you write them
 * Try to use indentation and code formatting to reduce the chance of formatting errors
 
+## Variables
 
+Before Bash interprets (or runs) every line of our script it first checks to see if any variable names are present. For every variable it has identified, it replaces the variable name with its value
 
+### Setting a variable
+
+### Reading a variable
+
+Place a $ followed by the name of the variable
+
+```
+$
+```
 
 
