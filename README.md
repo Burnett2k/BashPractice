@@ -57,12 +57,23 @@ Before Bash interprets (or runs) every line of our script it first checks to see
 
 ### Setting a variable
 
+When setting a variable, just give it a name
+
+```
+**TODO**
+```
+
 ### Reading a variable
 
 Place a $ followed by the name of the variable
 
 ```
-$
+$**TODO**
 ```
+
+
+## Command Line Arguments
+
+Passing arguments into a command. To refer to them, use $1 for the first command, $2 for the second, and so forth.
 
 
