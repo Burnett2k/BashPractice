@@ -73,7 +73,12 @@ echo $myvariable
 ```
 
 ### Exporting a variable
-**TODO** add info
+
+Since scripts run in their own processes, if you want to have a script call another one, you have to export the variables so they are accessible. Use the **export** keyword to export a variable.
+
+```bash
+export var1
+```
 
 ## Command Line Arguments
 
