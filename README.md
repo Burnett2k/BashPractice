@@ -64,7 +64,7 @@ When setting a variable, just give it a name. Formatting is important (no spaces
 myvariable=hello
 ```
 
-### Reading a variable
+### Reading a variable from user input
 
 Place a $ followed by the name of the variable
 
