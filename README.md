@@ -66,10 +66,20 @@ myvariable=hello
 
 ### Reading a variable from user input
 
-Place a $ followed by the name of the variable
+Use the read command followed by the variable name
 
 ```bash
-echo $myvariable
+read myvariable
+```
+
+Two commonly used options
+* -p which allows you to specify a prompt and 
+* -s which makes the input silent
+
+Reading multiple variables from user input (bash will separate each item by spaces and fill in the variables in order. If the user passes in more items than expected, all of the remaining items are added to the last variable)
+
+```bash
+read var1 var2 var3
 ```
 
 ### Exporting a variable
