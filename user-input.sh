@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo Hi! What is your name?
-read FNAME
+read -p 'Name: ' FNAME
 echo 
 
 # Get the user name and use -p to let the user know we are looking for the username
