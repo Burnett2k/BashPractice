@@ -72,20 +72,23 @@ Place a $ followed by the name of the variable
 echo $myvariable
 ```
 
+### Exporting a variable
+**TODO** add info
 
 ## Command Line Arguments
 
 Passing arguments into a command. To refer to them, use $1 for the first command, $2 for the second, and so forth.
 
 ### System variables
-* $0 - The name of the Bash script.
-* $1 - $9 - The first 9 arguments to the Bash script.
-* $# - How many arguments were passed to the Bash script.
-* $@ - All the arguments supplied to the Bash script.
-* $? - The exit status of the most recently run process.
-* $$ - The process ID of the current script.
-* $USER - The username of the user running the script.
-* $HOSTNAME - The hostname of the machine the script is running on.
-* $SECONDS - The number of seconds since the script was started.
-* $RANDOM - Returns a random number.
-* $LINENO - Returns the current line number.
+* $0 - The name of the Bash script
+* $1 - $9 - The first 9 arguments to the Bash script
+* $# - How many arguments were passed to the Bash script
+* $@ - All the arguments supplied to the Bash script
+* $? - The exit status of the most recently run process
+* $$ - The process ID of the current script
+* $USER - The username of the user running the script
+* $HOSTNAME - The hostname of the machine the script is running on
+* $SECONDS - The number of seconds since the script was started
+* $RANDOM - Returns a random number
+* $LINENO - Returns the current line number
+* $PWD - Returns a path to the current working directory
