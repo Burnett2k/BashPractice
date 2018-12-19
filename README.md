@@ -107,3 +107,29 @@ Passing arguments into a command. To refer to them, use $1 for the first command
 * $RANDOM - Returns a random number
 * $LINENO - Returns the current line number
 * $PWD - Returns a path to the current working directory
+
+## Piping
+
+Piping is a way to pass data from one command to another for manipulation or editing.
+
+This command runs the ls command which is passed into the head command which grabs the first 3 items
+```bash
+ls | head -3
+```
+
+Tip: write out your pipes incrementally so that you don't end up in a bad state and have no idea which piece is behaving unexpectedly. 
+
+## Let
+
+let is a builtin function of Bash that allows for simple arithmetic
+
+```bash
+let a=5+4
+```
+
+## Length of a variable
+
+```bash
+a = 'Hello World'
+echo ${#a}
+```
