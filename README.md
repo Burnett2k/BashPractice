@@ -133,3 +133,7 @@ let a=5+4
 a = 'Hello World'
 echo ${#a}
 ```
+
+## STDIN , STDOUT, & STDERR
+
+**TODO** Will add more information once I understand this concept better
