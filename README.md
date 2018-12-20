@@ -154,6 +154,14 @@ else
 fi
 ```
 
+The parts within the brackets [] are actually a reference to the command **test**. This means you can test your if statement logic using the test command before even writing the if statement. 
+
+```bash
+test 001 -eq 1
+```
+
+The operators are listed below
+
 ### Operators
 
 
