@@ -142,14 +142,25 @@ echo ${#a}
 
 If statements are pretty simple. Starts with if and the condition is within brackets. An else can be added and the if statment ends with the fi keyword.
 
+* the else block is optional
+* elif can be used as an else if statement
 
-
-basic syntax
+basic syntax (if / else)
 ```
 if [<some test>]
 then
     <commands>
 else 
+    <other commands>
+fi
+```
+
+basic syntax (if / else if)
+```
+if [<some test>]
+then
+    <commands>
+elif [ <some test> ]
     <other commands>
 fi
 ```
@@ -179,3 +190,19 @@ The operators are listed below
 * -s FILE - FILE exists and it's size is greater than zero (ie. it is not empty).
 * -w FILE - FILE exists and the write permission is granted.
 * -x FILE - FILE exists and the execute permission is granted.
+
+## Case Statements
+
+When if statements get complicated or out of hand, it is a good idea to try and use a case statement instead which can compare many cases at once.
+
+Here is the basic layout:
+```
+case <variable> in
+<pattern 1>)
+    <commands>
+    ;;
+<pattern 2>)
+    <other commands>
+    ;;
+esac
+```
