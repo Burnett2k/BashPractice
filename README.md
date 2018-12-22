@@ -212,6 +212,8 @@ esac
 
 ### While Loops
 
+While an expression is true, keep running these steps
+
 ```
 while [ <some test> ]
 do
