@@ -206,3 +206,15 @@ case <variable> in
     ;;
 esac
 ```
+
+
+## Loops
+
+### While Loops
+
+```
+while [ <some test> ]
+do
+    <commands>
+done
+```
