@@ -239,3 +239,24 @@ do
 done
 ```
 
+### Controlling loops
+
+* The **break** statement tells Bash to leave the loop straight away
+* The **continue** statement tells Bash to stop running through this iteration of the loop and begin the next iteration
+
+## Functions
+
+re-usable pieces of code you can put into your script
+
+```
+function_name () {
+
+}
+```
+
+Arguments are accessed using $1, $2, etc like so:
+
+```function_name () {
+    echo $1
+}
+```
