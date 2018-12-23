@@ -220,3 +220,22 @@ do
     <commands>
 done
 ```
+
+### Until Loops
+
+```
+until [ <some test> ]
+do
+    <commands>
+done
+```
+
+### For Loop
+
+```
+for var in <list>
+do
+    <commands>
+done
+```
+
